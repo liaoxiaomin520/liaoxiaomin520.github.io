@@ -1,25 +1,175 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>廖小敏-博客</title>
-<link rel="shortcut icon" href="boke.ico"/>
+<meta charset="utf-8"> 
+<title>LXM</title>  
 <style>	
   #beijing {
-          position: absolute;
-          width:1024px;
-          height:2048px;
-          background:#f69;}
+                width:1024px;
+                height:2048px;
+                background:#f69;
+	animation-name:myfirst;
+	animation-duration:5s;
+	animation-timing-function:linear;
+	animation-delay:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-play-state:running;}
+
+@keyframes myfirst {
+	0%   {background:#f69;}
+	50%  {background:#f9c;}
+	100% {background:#f69;}}
+
+  #kuan {
+	width:450px;
+	margin-left:287px;
+	margin-top:100px;}
+
+  #titou {
+	text-align:center;
+	font-size: 45px;}
+
+div.img {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width:192px;background:#eee;
+	border-radius: 15px 15px 0 0;
+	box-shadow: 5px 10px 20px #a03;}
+	
+div.img img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px 15px 0 0;}
+
+div.desc {
+	padding: 15px;
+	text-align: center;background:#eee;}
+
+  #jiewei {color:#FFD900;
+	text-align:center;
+	font-size: 45px;}
 </style>
 </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
-	<div id="beijing">
+<div id="beijing">
+
+
+<audio  autoplay>
+  <source src="yy.mp3" type="audio/mpeg">
+您的浏览器不支持 audio 元素。
+</audio>
+
+
+<br/>
+<h1 id="titou">
+<span style="color:	#FF0000">任</span>
+<span style="color:	#FF8C00">时</span>
+<span style="color:#FFD700">间</span>
+<span style="color:#3CB371">匆</span>
+<span style="color:#5F9EA0">匆</span>
+<span style="color:	#0000FF">流</span>
+<span style="color:	#8A2BE2">去</span>
+
+<span style="color:	#FF0000">我</span>
+<span style="color:	#FF8C00">只</span>
+<span style="color:#FFD700">在</span>
+<span style="color:#3CB371">乎</span>
+<span style="color:#5F9EA0">你</span>
+<span style="color:	#0000FF"></span>
+<span style="color:	#8A2BE2"></span>
+</h1>
 
 
 
 
 
-  <p>1.2</p>
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="kuan">
+
+
+<div class="img">
+      <img src="1.jpeg" alt="图片文本描述">
+      <div class="desc">两条腿走路的时候</div>
+</div>
+
+ <div class="img">
+      <img src="2.jpeg" alt="图片文本描述">
+      <div class="desc">还会左脚绊右脚呢</div>
+</div>
+
+<div class="img">
+      <img src="3.jpeg" alt="图片文本描述">
+      <div class="desc">所以</div>
+</div>
+
+<div class="img">
+      <img src="4.jpeg" alt="图片文本描述">
+      <div class="desc">何况是两个人呢</div>
+</div>
+
+<div class="img">
+      <img src="5.jpeg" alt="图片文本描述">
+      <div class="desc">我会更加的有耐心</div>
+</div>
+
+<div class="img">
+      <img src="6.jpg" alt="图片文本描述">
+      <div class="desc">更细心的听你轻诉</div>
+</div>
+
+<div class="img">
+      <img src="7.jpg" alt="图片文本描述">
+      <div class="desc">更体会你的感受</div>
+</div>
+
+
+
+
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<h1 id="jiewei" onclick="this.innerHTML='我只在乎你！！！'">因为...</h1>
+</div>
+</div>
 </body>
 </html>
